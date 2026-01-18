@@ -1129,7 +1129,7 @@ function setupChatListener(player)
             elseif msgLower:match("^%.v%s+([^%s]+)$") then
                 local botName = msgLower:match("^%.v%s+([^%s]+)$")
                 handleHideCommand(botName)
-            elseif msgLower == "RIKA" then
+            elseif msgLower == ".rika" then
                 teleportToTarget(player.Name)
             elseif msgLower == ".search" then
                 lockedTarget = nil
